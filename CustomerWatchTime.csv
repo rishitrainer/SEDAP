@@ -1,4 +1,4 @@
-Entry_ID,Customer_ID,Customer_First_Name,Customer_Last_Name,Channel_No,Start_Watch_Time,End_Watch_Time,Customer_Age
+Entry_ID,Customer_ID,Customer_First_Name,Customer_Last_Name,Start_Watch_Time,End_Watch_Time,Channel_No,Customer_Age
 1,101,David,Nix,130,250,512,63
 2,102,Neil,Armstrong,230,330,971,32
 3,103,Donita,Speicher,330,450,841,58
