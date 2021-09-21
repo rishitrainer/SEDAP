@@ -4,43 +4,18 @@
 4. Start writing Validation Methods for Every Column 
 5. Consolidate Error message for each Row to form a Single String
 6. Write CSV file with Error <Original_FIle_name_Error.csv>
-7. Send this Error File to ActiveMQ Queue - ActiveMQ
-8. Start inserting Valid Records in Database - MySQL
-9. Exception handling when insert fails / anything fails while processing 
-10 Write Unit test cases for each Method
-
-ValidationError
-	NameError
-	InvalidChannelNumberError
-	InvalidTimeFormatError
-
-10. Insert JSON Data in MongoDB 
+7. File Processing is complete - move the file to "processed" directory
+8. Send this Error File to ActiveMQ Queue - ActiveMQ
+9. Start inserting Valid Records in Database - MySQL
+10. Exception handling when insert fails / anything fails while processing 
+11. Write Unit test cases for each Method
+12. Insert JSON Data in MongoDB 
 
 
-Python --> SQL --> MySQL
-Python --> MySQL Client --> SQL --> MySQL
-
-MySQL --> MySQL Client --> Python
-
-1. Install Connector / Client
-
-pip install mysql-connector-python
-
-2. mysqlclient -
-Host: localhost 
-Port: 3306 
-Login User: root
-Password: password
-database : sakila
-
-3. Cursor - Active Connection between DB and Python
-
-
-Schema - Database
-Tables - Collections
-Records - Documents
+MySQL Installation: https://www.youtube.com/watch?v=4Z4r8eGsEu8
+MongoDB INstallation: https://www.youtube.com/watch?v=uBsrlV-aU80
+ActiveMQ : https://activemq.apache.org/components/classic/download/
+Java String Functions: https://www.youtube.com/watch?v=SZqexpaprlI
 
 
 
-
-close connection
